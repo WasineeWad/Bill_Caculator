@@ -60,6 +60,7 @@ class Popup extends Component {
                       id={item.value}
                       onClick={() => this.setSelectedCode(item)}
                       checked={item.selected}
+                      readOnly
                     />
                     <span className="codeList">{item.label}</span>
                   </div>

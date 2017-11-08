@@ -47,18 +47,22 @@ class Bill extends Component{
     var selectedCode = this.state.codeOption.filter((obj) => {
       return obj.selected === true
     })
+    var valid = true;
     //if(selectedCode.length === 1){
       selectedCode.map((item) => {
         if(item.value === "4PAY3" && parseInt(this.state.amount.trim()) !== 4){
+          valid = false;
           alert('Cannot use 4PAY3 promotion!');
-          return;
         }
         if(item.value === "LUCKYTWO" && parseInt(this.state.amount.trim()) !== 2){
+          valid = false;
           alert('Cannot use LUCKYTWO promotion!');
-          return;
         }
       });
-    //}
+
+    if(!valid){
+      return;
+    }
     var hasPromotion = selectedCode.length !== 0;
     var noCalBill = parseInt(this.state.amount) * 459;
     var temp = 0;
