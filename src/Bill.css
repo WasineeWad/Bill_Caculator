@@ -1,0 +1,29 @@
+body {
+  background-color: #f0e8e1;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button {
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.cal-block {
+  margin-top: 15%;
+  margin-left: 30%;
+  position: absolute;
+  padding: 15px 40px;
+  background-color: #6b7b82;
+  border-radius: 2px;
+  width: auto;
+  height: auto;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}

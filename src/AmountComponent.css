@@ -1,0 +1,12 @@
+.labelAmount {
+  display: inline-block;
+  width: 50%;
+  color: #f0e8e1;
+  text-shadow: -1px 0 #6b7b82, 0 1px #6b7b82, 1px 0 #6b7b82, 0 -1px #6b7b82;
+}
+
+.txtAmount {
+  display:inline-block;
+  width: 50%;
+  text-align: right;
+}

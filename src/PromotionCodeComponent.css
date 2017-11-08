@@ -1,0 +1,43 @@
+.labelPromoCode {
+  display: inline-block;
+  width: 20%;
+  color: 	#f0e8e1;
+  text-shadow: -1px 0 #6b7b82, 0 1px #6b7b82, 1px 0 #6b7b82, 0 -1px #6b7b82;
+}
+
+.txtPromoCode {
+  display: inline-block;
+  width: 60%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #EEEEEE;
+}
+
+.btnAdd {
+  display: inline-block;
+  width: 10%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 0px;
+  background-color: #b5b2b4;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.btnAdd:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .5);
+}
+
+.btnEdit {
+  display: inline-block;
+  width: 10%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #ddc0be;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.btnEdit:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .5);
+}

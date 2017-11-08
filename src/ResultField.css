@@ -1,0 +1,9 @@
+.inputResult {
+  padding: 6px 10px;
+  margin: 8px 0;
+  border: 1px solid #FFFF00;
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: right;
+}
